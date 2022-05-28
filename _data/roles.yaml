@@ -1,0 +1,20 @@
+pi:
+  icon: fas fa-microscope
+  text: Principal Investigator
+
+res:
+  icon: fas fa-graduation-cap
+  text: Researcher
+  
+engineer:
+  icon: fas fa-code
+  text: Programmer
+
+postdoc:
+  icon: fas fa-glasses
+  text: Postdoctoral Researcher
+
+intern:
+  icon: fas fa-user-graduate
+  text: Intern
+

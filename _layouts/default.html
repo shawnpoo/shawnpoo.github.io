@@ -34,8 +34,11 @@
       {% include site-styles.html %}
     {% else %}
       <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
-    {% endif %}
+      {% endif %}
 
+    {% include styles.html %}
+
+      <!-- favicons -->
     {% if site.favicons or site.avatarurl %}{% include site-favicons.html %}{% endif %}
 
     {% if site.google_analytics %}{% include site-analytics.html %}{% endif %}
