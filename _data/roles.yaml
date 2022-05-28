@@ -4,11 +4,11 @@ pi:
 
 res:
   icon: fas fa-graduation-cap
-  text: Researcher
+  text: Fulltime Researcher
   
-engineer:
+eng:
   icon: fas fa-code
-  text: Programmer
+  text: Fulltime Engineer
 
 postdoc:
   icon: fas fa-glasses
@@ -16,5 +16,5 @@ postdoc:
 
 intern:
   icon: fas fa-user-graduate
-  text: Intern
+  text: Intern Student
 
