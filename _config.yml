@@ -63,6 +63,12 @@ timezone: Europe/London # Timezone for blog posts and alike
 
 # 5. Collections
 collections:
+  posts:
+    title: News
+    output: true
+    description: "News"
+    feature_text: |
+       # News
   members:
     output: true
     description: "Member"

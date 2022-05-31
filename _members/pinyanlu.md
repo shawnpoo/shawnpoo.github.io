@@ -1,4 +1,5 @@
 ---
+layout: post
 name: Pinyan Lu
 image: assets/images/people/pinyanlu.jpeg
 description: Principle Investigator
