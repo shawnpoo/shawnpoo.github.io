@@ -2,12 +2,12 @@
   {% capture categories %}
     {% for category in page.categories %}
 <!--<span class="label  label--category"><a href="{{ site.baseurl }}/categories/#{{ category | downcase | slugify }}">{{ category }}</a></span>{% if forloop.last == false %},{% endif %}-->
-<span class="label  label--category"><i>{{ category }}</i></span>
+<span class="label  label--category"><u>{{ category }}</u></span>
     {% endfor %}
   {% endcapture %}
 {% elsif page.category %}
 {% capture categories %}
-<span class="label  label--category"><i>{{ page.category }}</i></span>
+<span class="label  label--category"><u>{{ page.category }}</u></span>
 <!--    <span class="label  label--category"><a href="{{ site.baseurl }}/categories/#{{ page.category | downcase | slugify }}">{{ page.category }}</a></span>-->
   {% endcapture %}
 {% endif %}

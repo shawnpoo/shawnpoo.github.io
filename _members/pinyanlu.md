@@ -6,6 +6,7 @@ description: The lab head
 role: pi
 aliases:
 links:
+  google-scholar: KFQERBwAAAAJ
   home-page: lupinyan.com
   email: lupinyan@blabla.com
 ---
