@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+{% include site-header.html %}
+
+<main class="main  container">
+<section class="background  center">
+
+    <section class="section  typeset">
+      <h1 class="center">{{ page.name }}</h1>
+      <br/>
+    </section>
+    
+  <section>
+    {%- include figure.html image=page.image -%}
+    </section>
+
+<p class="center">
+  {%- include role.html type=page.role text=true description=page.description -%}
+</p>
+
+<p class="center">
+  {%- for entry in page.links -%}
+    {%- assign key = entry[0] -%}
+    {%- assign value = entry[1] -%}
+    {%- include link.html type=key icon="" text="" tooltip="" link=value -%}
+  {%- endfor -%}
+</p>
+
+{{ content }}
+
+{%- assign aliases = "" | split: ',' -%}
+
+{%- if page.aliases.first -%}
+  {%- assign aliases = aliases | concat: page.aliases -%}
+{%- elsif page.aliases -%}
+  {%- assign aliases = aliases | push: page.aliases -%}
+{%- elsif page.title -%}
+  {%- assign aliases = aliases | push: page.title -%}
+{%- endif -%}
+
+{%- assign search = aliases | join: '" "' | prepend: '"' | append: '"' | prepend: "/research/?search=" -%}
+
+{%- capture text -%}
+  {{ page.title }}'s papers
+{%- endcapture -%}
+</section>
+
+</main>
+
+{% include site-footer.html %}
+<!-- <p class="center"> -->
+<!--   {%- include link.html icon="fas fa-book-open" text=text link=search style="button" -%} -->
+<!-- </p> -->

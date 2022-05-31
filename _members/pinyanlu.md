@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: member
 name: Pinyan Lu
 image: assets/images/people/pinyanlu.jpeg
-description: Principle Investigator
+description: The lab head
 role: pi
 aliases:
 links:

@@ -1,4 +1,5 @@
 ---
+layout: member
 name: Chen Wu
 image: assets/images/people/xiaohuibei.jpeg
 description: Senior Researcher

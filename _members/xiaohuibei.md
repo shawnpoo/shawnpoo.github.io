@@ -1,7 +1,8 @@
 ---
+layout: member
 name: Xiaohui Bei
 image: assets/images/people/xiaohuibei.jpeg
-description: Principle Investigator
+description: Another Principle Investigator
 role: pi
 aliases:
   - X. Bei
