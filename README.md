@@ -60,6 +60,7 @@ Prof. Pinyan Lu is the chair of the School of Information Management and Enginee
  
 ## TODO
 
+- [ ] 中英双语支持要搞两份网站吗还是直接混用?
 - [ ] Should we add search functionality?
 - [ ] Publication page?
 - [ ] Clean the CSS files (many conflicts)
