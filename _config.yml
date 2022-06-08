@@ -183,16 +183,16 @@ navigation_header:
   url: /
 - title: News
   title_zh: 新闻 
-  url: /news
+  url: /news/
 - title: Team
   title_zh: 团队 
-  url: /team
+  url: /team/
 - title: Join Us
   title_zh: 招聘
-  url: /join
+  url: /join/
 - title: 中文
   title_zh: En
-  url: /zh/default
+  url: /zh/default/
 
 navigation_footer:
 - title: copyright 2022 @ Huawei TCS Lab

@@ -5,7 +5,7 @@ feature_text: |
   <h1><font color='#ebebeb'> 加入我们  </font></h1>
 feature_image: ../../assets/images/background/bg_motion10.gif
 excerpt: "Join us and work together at TCS lab!"
-permalink: "/zh/join"
+permalink: "/zh/join/"
 ---
 
 华为理论计算机实验室致力于前沿算法问题研究，并推动先进研究成果在华为公司的实际业务场景中应用。期待相关领域优秀硕士、博士、博士后的加入，开放**正式员工**、**博士后**和**实习生**岗位。
