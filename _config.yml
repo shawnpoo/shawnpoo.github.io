@@ -22,6 +22,9 @@ exclude:
 - alembic-jekyll-theme.gemspec
 - .jekyll-cache
 
+future: true
+include: ['_zh']
+
 # 2. Installed Gems
 plugins:
 - jekyll-sitemap
@@ -68,8 +71,21 @@ collections:
     output: true
     description: "News"
     feature_text: |
-       # News
+       <h1><font color='#ebebeb'> News  </font></h1>
+    feature_image: ../../assets/images/background/bg_motion10.gif
+  postszh:
+    title: News
+    output: true
+    description: "News"
+    feature_text: |
+      <h1><font color='#ebebeb'> 新闻  </font></h1>
+    feature_image: ../../assets/images/background/bg_motion10.gif
   members:
+    output: true
+    description: "Member"
+    feature_text: |
+       # Meet Our Team
+  memberszh:
     output: true
     description: "Member"
     feature_text: |
@@ -102,17 +118,39 @@ defaults:
       type: "pages"
     values:
       layout: page # Set the default layout for pages
+  -
+    scope:
+      path: ""
+      type: "postszh"
+    values:
+      layout: post # Set the default layout for postszh
+  # -
+  #   scope:
+  #     path: "_zh/news/**"
+  #     type: "news"
+  #   values:
+  #     layout: news # Set the default layout for pages
+  #     locale: zh
+  # -
+  #   scope:
+  #     path: "_zh/members/**"
+  #     type: "memmbers"
+  #   values:
+  #     layout: member # Set the default layout for pages
+  #     locale: zh
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-US # Set the site language
-title: "TCS Lab" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "TCS Lab web page"
-url: "https://alembic.darn.es" # Site url, also used in jekyll-seo-tag
+title: "Huawei TCS Lab" # Site name or title, also used in jekyll-seo-tag
+logo: "/assets/logos/tcs_logo.svg" # Site logo, also used in jekyll-seo-tag
+description: "Huawei TCS Lab web page"
+url: "https://www.tcs-lab.com" # Site url, also used in jekyll-seo-tag
 baseurl: ""
+baseurl_zh: "/zh"
 repo: "https://github.com/shawnpoo/shawnpoo.github.io"
 email: "foxdoraame@gmail.com"
+multilanguage: zh-en
 # date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
 # google_analytics: ""
 # google_analytics_anonymize_ip: ""
@@ -131,23 +169,33 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
   512: '/assets/logos/logo@512px.png'
   1024: '/assets/logos/logo@1024px.png'
 
+#- title: Conferences
+#  title_zh: 会议 
+#  url: /conferences/
+#- title: Research
+#  title_zh: 研究方向
+#  url: /research/
+  
 # 9. Site navigation
 navigation_header:
 - title: Home
+  title_zh: 主页
   url: /
-- title: Research
-  url: /research/
-- title: Conferences
-  url: /conferences/
-- title: Team
-  url: /team/
-- title: Join Us
-  url: /join/
 - title: News
-  url: /news/
+  title_zh: 新闻 
+  url: /news
+- title: Team
+  title_zh: 团队 
+  url: /team
+- title: Join Us
+  title_zh: 招聘
+  url: /join
+- title: 中文
+  title_zh: En
+  url: /zh/default
 
 navigation_footer:
-- title: copyright 2022 @ TCS Lab
+- title: copyright 2022 @ Huawei TCS Lab
   url: https://www.tcs-lab.com
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
@@ -170,4 +218,6 @@ fonts:
   preconnect_urls:
     - https://fonts.gstatic.com
   font_urls:
-    - https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap
+    - https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap
+    - https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap
+    - https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap

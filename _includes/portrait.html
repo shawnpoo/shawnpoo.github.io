@@ -20,12 +20,12 @@
 <!--{::nomarkdown}-->
 <a {% if url %}href="{{ url | relative_url }}"{% endif %} class="portrait" style="--width: {{ width }}px">
 
-  {%- assign placeholder = "images/placeholder.svg" | relative_url -%}
+  {%- assign placeholder = "assets/images/placeholder.svg" | relative_url -%}
 
-  {%- assign role = member.role | default: "" -%}
+<!--  {%- assign role = member.role | default: "" -%}
   {%- if role -%}
     {%- include role.html type=role -%}
-  {%- endif -%}
+  {%- endif -%}-->
   
   {%- assign name = member.name | default: "" -%}
   {%- assign image = member.image | default: "" -%}

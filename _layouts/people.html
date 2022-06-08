@@ -4,13 +4,27 @@ layout: default
 
 {% include site-header.html %}
 
-<main class="main  container">
+<main class="background  container">
+  <center><h1 class="member-type"> Full-Time Researcher </h1>  </center>
+    <div>
 
-  {%
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters="role: di"
+%}
+{%
   include list.html
   data="members"
   component="portrait"
   filters="role: pi"
+%}
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters="role: se_res"
 %}
 {%
   include list.html
@@ -23,19 +37,33 @@ layout: default
   data="members"
   component="portrait"
   filters="role: eng"
-  %}
+%}
+    </div>
+<hr>
+</main>
+<main class="background container">
+  <center><h1 class="member-type"> Visiting Professor </h1>  </center>
+  <div>
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters="role: advisor"
+%}
+</div>
+<hr>
+</main>
+
+<main class="background container">
+  <center><h1 class="member-type"> Post-Doctoral Researcher </h1>  </center>
+  <div>
 {%
   include list.html
   data="members"
   component="portrait"
   filters="role: postdoc"
-  %}
-  {%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: intern"
-  %}
+%}
+</div>
   
 </main>
 

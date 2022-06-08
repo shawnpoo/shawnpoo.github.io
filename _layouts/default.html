@@ -1,5 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+{% if page.locale %}
+<html lang="zh"></html>
+{% else %}
+<html lang="{{ site.lang | default: "en-US" }}"></html>
+{% endif %}
+
+
 
   <head>
     <!-- General meta -->

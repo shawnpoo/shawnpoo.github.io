@@ -1,10 +1,19 @@
+di:
+  icon: fas fa-microscope
+  text: Director
+
+
 pi:
   icon: fas fa-microscope
-  text: Principal Investigator
+  text: Principal Researcher
 
 res:
   icon: fas fa-graduation-cap
   text: Fulltime Researcher
+  
+se_res:
+  icon: fas fa-graduation-cap
+  text: Senior Researcher
   
 eng:
   icon: fas fa-code
@@ -18,3 +27,39 @@ intern:
   icon: fas fa-user-graduate
   text: Intern Student
 
+advisor:
+  icon: fas fa-microscope
+  text: Visiting Professor
+
+zn_di:
+  icon: fas fa-microscope
+  text: 实验室主任
+
+zn_pi:
+  icon: fas fa-microscope
+  text: 首席研究员
+
+zn_se_res:
+  icon: fas fa-graduation-cap
+  text: 高级研究员
+  
+
+zn_res:
+  icon: fas fa-graduation-cap
+  text: 研究员
+  
+zn_eng:
+  icon: fas fa-code
+  text: 工程师
+
+zn_postdoc:
+  icon: fas fa-glasses
+  text: 博士后
+
+zn_intern:
+  icon: fas fa-user-graduate
+  text: 实习生
+
+zn_advisor:
+  icon: fas fa-microscope
+  text: 访问教授

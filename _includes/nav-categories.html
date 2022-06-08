@@ -1,9 +1,20 @@
 <nav class="nav  nav--categories">
   <ul class="list  list--categories">
+    <li class="item  item--category">
+      {% if include.category %}
+      <a href="/news">all</a>
+      {% else %}
+      <a class="item--category-current" href="/news">all</a>
+      {% endif %}
+    </li>
     {% for item in site.categories %}
-      <li class="item  item--category">
-        <a href="#{{ item | first | slugify }}">{{ item | first }}</a>
-      </li>
+    <li class="item  item--category">
+      {% if include.category == item.first %}
+      <a class="item--category-current" href="/categories/{{ item | first | slugify }}/">{{ item | first }}</a>
+      {% else %}
+      <a href="/categories/{{ item | first | slugify }}/">{{ item | first }}</a>
+      {% endif %}
+    </li>
     {% endfor %}
   </ul>
 </nav>

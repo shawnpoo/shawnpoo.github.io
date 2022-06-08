@@ -23,7 +23,7 @@
       <span class="role_text">{{ text }}</span>
     {%- endif -%}
 
-    {%- if description -%}
+    {%- if description and description != text -%}
       <span class="role_description">{{ description }}</span>
     {%- endif -%}
   </div>

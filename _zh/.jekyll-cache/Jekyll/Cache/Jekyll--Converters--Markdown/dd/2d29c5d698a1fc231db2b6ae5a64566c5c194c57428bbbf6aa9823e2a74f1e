@@ -1,0 +1,45 @@
+I"�<!-- title: TCS Lab ->
+<!-- feature_image: "https://picsum.photos/1300/400?image=989"-->
+<!-- <\!-- Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get rolling immediately. Install it, configure it, tweak it, push it. -\-> -->
+
+<!-- <\!-- <a class="button" href="https://github.com/daviddarnes/alembic" style="background: #0366d6">Fork it&nbsp; <svg width="16" height="16" class="icon  icon--github" role="img" alt="github"><title>github</title><use xlink:href="#github" fill="CurrentColor"></use></svg>
+</a>
+ <a class="button" href="https://buymeacoffee.com/daviddarnes#support" style="background: #f68140">Buy me a coffee ☕️</a>
+ <a class="button" href="https://twitter.com/intent/tweet/?url=https://alembic.darn.es&text=Alembic%20-%20A%20Jekyll%20boilerplate%20theme&via=DavidDarnes" style="background: #0d94e7">Tweet it&nbsp; <svg width="16" height="16" class="icon  icon--twitter" role="img" alt="twitter"><title>twitter</title><use xlink:href="#twitter" fill="CurrentColor"></use></svg>
+</a>
+ <a class="button" href="https://github.com/daviddarnes/alembic#installation">Install Alembic ⚗️</a>
+ -\-> -->
+
+<h3 id="简介"><center>简介</center></h3>
+<p>华为理论计算机实验室是华为公司从事理论计算机基础研究的实验室，致力于推动算法设计、复杂性理论等理论计算机核心理论与方法论的创新和发展，通过算法与理论等基础性的创新为华为公司的产品和服务提供有力支撑。</p>
+
+<hr />
+<h3 id="founders"><center>Founders</center></h3>
+<div id="html">
+<main class="background  container" style="text-align: center">
+
+</main>
+</div>
+
+<hr />
+<h3 id="目标"><center>目标</center></h3>
+<center> 成为世界级的研究中心，拓展人类知识的边界；</center>
+<center> 成为公司的算法能力中心，为公司及客户创造价值。</center>
+
+<hr />
+<h3 id="方向"><center>方向</center></h3>
+<p>在理论研究方面，我们在广义上理解和研究理论计算机科学。除了它的核心方向，我们也关注理论计算机与其他方向的结合。 特别的，我们希望结合理论计算机、启发式算法、运筹优化、机器学习等方向，设计既有理论保证、又有实际应用效果的算法。</p>
+
+<div id="html">
+<main class="background  container" style="text-align: center">
+<img src="../../assets/images/intro/theroy_direction_intro_zh.png" width="80%" height="80%" />
+</main>
+</div>
+
+<p>在服务产品方面，我们实验室与华为公司内部各个产品线建立了深入的合作，解决在产品与服务中的核心算法难题，提升产品竞争力和用户体验。</p>
+
+<hr />
+<h3 id="使命"><center>使命</center></h3>
+<p>华为理论计算机实验室的重要使命是 “连接理论与应用，打通学术与产业”。为此，我们通过联合实验室、访问教授、合作项目、博士后、实习生等各种形式与全球的学术界保持着广泛而密切的联系与合作。</p>
+
+:ET

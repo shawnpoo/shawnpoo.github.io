@@ -1,46 +1,62 @@
 {% if site.navigation_header %}
-<nav class="nav  nav--header">
+<nav class="nav  nav--header" style="padding-left:50%"> 
   <ul class="list  list--nav">
     {% for item in site.navigation_header %}
-
       {% if item.url contains '://' %}
         {% assign url = item.url %}
       {% else %}
         {% assign url = item.url | relative_url %}
       {% endif %}
-
-      <li class="item  item--nav{% if item.url == page.url %}  item--current{% endif %}">
-        <a href="{{ url }}">{{ item.title }}</a>
+      {% assign zh_url = item.url | prepend:'/zh' %}
+      {% assign zh_url_char = zh_url | remove:'/' %}
+      {% assign url_char = url | remove:'/' %}
+      {% assign page_char = page.url | remove:'/' %}
+      <li class="item  item--nav{% if zh_url_char == page_char or url_char == page_char %}  item--current{% endif %}">
+        {% if url contains '/zh/' %} 
+          {% if page.locale %}
+            <a href="{{ page.url | remove:'/zh'}}">{{ item.title_zh }}</a>
+          {% else %}
+            <a href="{{ page.url | prepend:'/zh'}}">{{ item.title }}</a>
+          {% endif %} 
+        {% elsif page.locale %}
+          <a href="{{ zh_url }}">{{ item.title_zh }}</a>
+        {% else %}
+          <a href="{{ url }}">{{ item.title }}</a>
+        {% endif %}                
       </li>
     {% endfor %}
   </ul>
   <button class="button  button--nav" aria-label="Menu toggle">
     {% include icon.html id="nav" title="Menu" %}
+
   </button>
 </nav>
 {% else %}
   {% include nav-default.html %}
 {% endif %}
-
+<!--[if gt IE 10]><!-->
 <script type="text/javascript">
   // Get list and button
+
   const navList = document.querySelector('.header .list--nav')
   const button  = document.querySelector('.header .button--nav')
 
   // Hide nav and apply toggle
-  const collapseNav = () => {
+  collapseNav = function() {
     if (document.body.clientWidth < 640) {
-      navList.style.setProperty('--listHeight', `-${navList.offsetHeight}px`)
+				    navList.style.setProperty('--listHeight','-'+navList.offsetHeight.toString().concat('px'))
+				    //`-${navList.offsetHeight}px`)
     } else {
       navList.removeAttribute('style')
     }
 
-    button.onclick = () => {
-      navList.style.setProperty('transition', `margin .1s`)
+    button.onclick = function() {
+  //    navList.style.setProperty('transition', `margin .1s`)
       if (navList.style.getPropertyValue('--listHeight')) {
         navList.style.removeProperty('--listHeight')
-      } else {
-        navList.style.setProperty('--listHeight', `-${navList.offsetHeight}px`)
+				    } else {
+				    				    navList.style.setProperty('--listHeight','-'+navList.offsetHeight.toString().concat('px'))
+//        navList.style.setProperty('--listHeight', `-${navList.offsetHeight}px`)
       }
     }
   }
@@ -48,7 +64,9 @@
   collapseNav()
 
   // Check on resize if to collapse nav
-  window.addEventListener('resize', () => {
+  window.addEventListener('resize', function() {
     collapseNav()
-  })
+				    })
+
+//  <!--<![endif]-->    
 </script>
