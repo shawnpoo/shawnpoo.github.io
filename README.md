@@ -54,19 +54,28 @@ Prof. Pinyan Lu is the chair of the School of Information Management and Enginee
 * `description`: 个人具体职位描述, 会显示在个人详细信息页面
 * `image`: 照片, 我们把大家照片放在`assets/images/people/`下
 
-## 本地安装Jekyll
+## 本地修改方法
 
+```
+git clone git@github.com:shawnpoo/shawnpoo.github.io.git
+# 或者使用git pull从最新的main分支拉
+# --- 修改、更新文件 ---
+git add 修改的文件
+git commit -am "用一句话描述修改了什么"
+git push
+```
+
+### 安装Jekyll
 跟随[这个指导](https://jekyllrb.com/docs/installation/)在本地装jekyll。可以在修改完后本地预览。
+
+```
+bundle install # install dependencies
+bundle exec jekyll serve -P${PORT} # build the site any time a source file changes and serves it locally
+```
+
+本地浏览器打开`http://localhost:$PORT`就可以看到网站。
+
  
-## TODO
-
-- [ ] 中英双语支持要搞两份网站吗还是直接混用?
-- [ ] Should we add search functionality?
-- [ ] Publication page?
-- [ ] Clean the CSS files (many conflicts)
-- [ ] Should we merge "Join Us" into the team page?
-
-
 ## Other Notes
 
 用了两个模板: Team部分用的[lab-website-template](https://github.com/greenelab/lab-website-template), 主体和其它部分用的[Alembic](https://github.com/daviddarnes/alembic)
