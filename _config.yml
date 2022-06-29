@@ -143,7 +143,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: en-US # Set the site language
 title: "Huawei TCS Lab" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/tcs_logo.svg" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/logos/tcs_logo.png" # Site logo, also used in jekyll-seo-tag
 description: "Huawei TCS Lab web page"
 url: "https://www.tcs-lab.com" # Site url, also used in jekyll-seo-tag
 baseurl: ""
