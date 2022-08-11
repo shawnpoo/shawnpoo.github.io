@@ -2,7 +2,7 @@
 title: 国际进化计算大赛双赛道冠军！华为理论计算机实验室与华科团队共创佳绩！
 locale: zh
 categories:
-- 通知
+- 新闻
 feature_text: |
   ## 实国际进化计算大赛双赛道冠军！ <br /> 华为理论计算机实验室与华科团队共创佳绩！
 feature_image: "https://picsum.photos/2560/600?image=872"
@@ -15,11 +15,11 @@ feature_image: "https://picsum.photos/2560/600?image=872"
 
 近日，华为理论计算机实验室团队在参与的**ACM遗传与进化计算国际会议**(GECCO 2022)中，联合华科吕志鹏教授团队在不确定环境下动态堆栈调度(Dynamic Stacking Optimization in Uncertain Environments)算法竞赛中荣获Hotstorage赛道和Rolling Mill赛道**双赛道冠军！**
 
-<p align="center"><img src="https://mmbiz.qpic.cn/mmbiz_png/uMgQRH7ndtOtdhbQp5j6ibmbjlibKX6vT9IWTFXp1ft2S7NbxD1VzLKwJYkQBuZ9mtulGw6MeeqsXlHqW2a8CVEg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p align="center"><img src="https://camo.githubusercontent.com/32837fcb3a0061c30aef36617048cd8a5b36c4afdf6a00530f675c7dd826c57f/68747470733a2f2f6d6d62697a2e717069632e636e2f6d6d62697a5f706e672f754d67515248376e64744f746468625170356a3669626d626a6c69624b58367654394957544658703166743253374e62784431567a4c4b774a596b5142755a396d74756c4777364d65657173586c487157326138435645672f3634303f77785f666d743d706e6726777866726f6d3d352677785f6c617a793d312677785f636f3d31"></p>
 
 <p align="center">图1 Hotstorage赛道第一名证书</p>
 
-<p align="center"><img src="https://mmbiz.qpic.cn/mmbiz_png/uMgQRH7ndtOtdhbQp5j6ibmbjlibKX6vT9HIs8ISDkPetgHqBftQrrCAxic1v1gpxVsmr94XRLeb2A9qibYc0osibZQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p align="center"><img src="https://camo.githubusercontent.com/b4c7639b7dc963c55bdb21fd78e93b192ac906e95f69a4282d8520ab1508e14a/68747470733a2f2f6d6d62697a2e717069632e636e2f6d6d62697a5f706e672f754d67515248376e64744f746468625170356a3669626d626a6c69624b5836765439484973384953446b506574674871426674517272434178696331763167707856736d72393458524c65623241397169625963306f7369625a512f3634303f77785f666d743d706e6726777866726f6d3d352677785f6c617a793d312677785f636f3d31"></p>
 
 <p align="center">图2 Rolling Mill赛道第一名证书</p>
 
@@ -88,7 +88,7 @@ GECCO 2022赛题围绕动态不确定环境下的港口码头堆场调度问题�
 华为理论计算机实验室主任、创始人为陆品燕教授，目前团队成员共60余人，来自清华大学姚班、北京大学、上海交通大学、中国科技大学等知名高校和科研机构。实验室主要聚焦于**理论计算机、启发式算法、运筹优化、机器学习**等方向的算法研究和工业应用。
 
 
-<p align="center"><img src="https://mmbiz.qpic.cn/mmbiz_jpg/uMgQRH7ndtOtdhbQp5j6ibmbjlibKX6vT9ZiaqN7qJeBsdV9rf5egkf309tnwyYItWqsRLrL8h8OcF59XnstJjjCA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p align="center"><img src="https://camo.githubusercontent.com/9ee54312d99cfa94c46941adf16de00ad28687e3448d8638f84ecff47a16dfb8/68747470733a2f2f6d6d62697a2e717069632e636e2f6d6d62697a5f6a70672f754d67515248376e64744f746468625170356a3669626d626a6c69624b58367654395a6961714e37714a65427364563972663565676b66333039746e7779594974577173524c724c3868384f63463539586e73744a6a6a43412f3634303f77785f666d743d6a70656726777866726f6d3d352677785f6c617a793d312677785f636f3d31"></p>
 
 
 <p align="center">公众号｜tcslab</p>
