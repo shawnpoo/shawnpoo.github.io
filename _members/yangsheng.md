@@ -7,7 +7,7 @@ role: res
 aliases:
   - S. Yang
 links:
-  google-scholar: oum2PYAAAAJ
+  google-scholar: ou-m2PYAAAAJ
 # home-page: https://me.github.io/
 # email: me [at] gmail.com 
 ---
