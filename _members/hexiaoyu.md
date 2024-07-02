@@ -7,9 +7,9 @@ role: res
 aliases:
   - X. He
 links:
-  google-scholar: LCAV9uwAAAAJ
-  home-page: https://chaoliao1995.github.io/
-  # email: chao.liao.95 [at] gmail.com 
+  google-scholar: tbDYocYAAAAJ
+  # home-page: https://me.github.io/
+  # email: me [at] gmail.com 
 ---
 
 
