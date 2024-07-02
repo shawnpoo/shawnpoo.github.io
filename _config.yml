@@ -142,9 +142,9 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-US # Set the site language
-title: "Huawei TCS Lab" # Site name or title, also used in jekyll-seo-tag
+title: "Huawei Taylor Lab (TCS)" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/tcs_logo.png" # Site logo, also used in jekyll-seo-tag
-description: "Huawei TCS Lab web page"
+description: "Huawei Taylor Lab (TCS) web page"
 url: "https://www.tcs-lab.com" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 baseurl_zh: "/zh"
@@ -195,7 +195,7 @@ navigation_header:
   url: /zh/default/
 
 navigation_footer:
-- title: copyright 2022 @ Huawei TCS Lab
+- title: copyright 2022 @ Huawei Taylor Lab (TCS)
   url: https://www.tcs-lab.com
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
