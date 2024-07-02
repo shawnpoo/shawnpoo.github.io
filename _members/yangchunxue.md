@@ -1,6 +1,6 @@
 ---
 layout: member
-name: Yang Chunxue
+name: Chunxue Yang
 image: assets/images/people/chunxueyang.jpg
 description: Researcher
 role: res

@@ -1,6 +1,6 @@
 ---
 layout: member
-name: Zhu Minshen
+name: Minshen Zhu
 image: assets/images/people/minshenzhu.jpg
 description: Researcher
 role: res

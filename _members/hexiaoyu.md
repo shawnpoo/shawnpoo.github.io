@@ -1,6 +1,6 @@
 ---
 layout: member
-name: He Xiaoyu
+name: Xiaoyu He
 image: assets/images/people/xiaoyuhe.jpg
 description: Researcher
 role: res

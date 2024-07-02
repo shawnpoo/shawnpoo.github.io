@@ -1,6 +1,6 @@
 ---
 layout: member
-name: Yang Sheng
+name: Sheng Yang
 image: assets/images/people/shengyang.jpg
 description: Researcher
 role: res
