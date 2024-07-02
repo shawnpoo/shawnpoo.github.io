@@ -24,12 +24,12 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="1.1535372"
-     inkscape:cx="315.55115"
+     inkscape:cx="315.55116"
      inkscape:cy="241.86476"
-     inkscape:window-width="1886"
-     inkscape:window-height="2296"
-     inkscape:window-x="1930"
-     inkscape:window-y="20"
+     inkscape:window-width="3840"
+     inkscape:window-height="2340"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="shape1" />
   <defs
@@ -42,13 +42,13 @@
        id="shape1">
       <text
          xml:space="preserve"
-         style="font-weight:bold;font-size:96px;font-family:'Open Sans';letter-spacing:-1.5px;fill:#1475b5"
+         style="font-weight:bold;font-size:96px;font-family:'Open Sans';letter-spacing:-3px;fill:#1475b5"
          id="text1"><tspan
            y="111.5"
            x="10.5"
            id="tspan1"
            dx="-1"
-           style="letter-spacing:-1.5px">Huawe Taylor Lab</tspan></text>
+           style="letter-spacing:-3px">Huawei Taylor Lab</tspan></text>
     </g>
     <path
        d="M.0,.0L752.0,.0"
