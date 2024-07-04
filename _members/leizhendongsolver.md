@@ -2,8 +2,8 @@
 layout: member
 name: Zhendong Lei
 image: assets/images/people/zhendonglei.jpeg
-description: Researcher
-role: res
+description: Solver Technical Director
+role: res_solver
 aliases:
   - Z. Lei
 links:

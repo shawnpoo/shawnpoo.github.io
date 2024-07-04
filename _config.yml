@@ -167,9 +167,6 @@ navigation_header:
 - title: Home
   title_zh: 主页
   url: /
-- title: News
-  title_zh: 新闻 
-  url: /news/
 - title: Team
   title_zh: 团队 
   url: /team/

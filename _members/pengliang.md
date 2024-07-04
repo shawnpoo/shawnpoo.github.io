@@ -2,8 +2,8 @@
 layout: member
 name: Liang Peng
 image: assets/images/people/pengliang.png
-description: 实验室主任
-role: zn_di
+description: Director
+role: di
 aliases:
 links:
 ####   google-scholar: 
