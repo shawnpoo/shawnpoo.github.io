@@ -4,16 +4,31 @@ layout: default
 
 {% include site-header.html %}
 
-<main class="background  container">
-  <center><h1 class="member-type"> 全职研究员 </h1>  </center>
-    <div>
-
+<main class="background container">
+  <center><h1 class="member-type"> 团队带头人 </h1>  </center>
+  <center>
+  <div>
 {%
   include list.html
   data="memberszh"
   component="portrait"
   filters="role: zn_di"
 %}
+{%
+  include list.html
+  data="memberszh"
+  component="portrait"
+  filters="role: zn_di_solver"
+%}
+</div></center>
+<hr>
+</main>
+
+<main class="background  container">
+  <center><h1 class="member-type"> 全职研究员 </h1>  </center>
+  <center>
+    <div>
+
 {%
   include list.html
   data="memberszh"
@@ -38,33 +53,11 @@ layout: default
   component="portrait"
   filters="role: zn_eng"
 %}
-    </div>
-<hr>
-</main>
-<main class="background container">
-  <center><h1 class="member-type"> 访问教授 </h1>  </center>
-  <div>
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: zn_advisor"
-%}
-</div>
+    </div><center>
 <hr>
 </main>
 
-<main class="background container">
-  <center><h1 class="member-type"> 博士后研究员 </h1>  </center>
-  <div>
-{%
-  include list.html
-  data="memberszh"
-  component="portrait"
-  filters="role: zn_postdoc"
-%}
-</div>
-</main>
+
 
 
 {% include site-footer.html %}

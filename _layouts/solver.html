@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+{% include site-header.html %}
+
+
+<main class="background  container">
+  <center><h1 class="member-type"> Challenge the Limit and Surpass the Limit  </h1>  </center>
+    <div>
+
+        The TAYLOR Solver is a high-performance optimization software developed independently by Huawei Taylor Labs for large-scale and real-time scenarios. 
+        <br/><br/>
+        Our solver can handle large-scale mixed integer programming (MIP), linear programming (LP), quadratic programming (QP), and nonlinear programming (NLP) problems.
+        <br/><br/>
+        <p style="font-weight: bold">Latest News</p>On July 2, 2024, the latest data from the benchmark platform published by Professor Hans Mittelmann of Arizona State University indicated that our Taylor Solver ranked first among the NLP solvers.
+        
+        <br/>
+
+    </div>
+    <br/><br/><br/>
+<hr>
+</main>
+
+<main class="background  container">
+  <center><h1 class="member-type"> Our Objective  </h1>  </center>
+    <div>
+
+        With the development of industrialization and informatization, the performance of traditional optimization solvers hardly meets the solution time requirements for real-time problems, which results in the inability of solvers to address many industrial problems. The TAYLOR solver will continue to conduct in-depth research into solving large-scale problems to enhance solution performance and meet the industry's demands for real-time solving capabilities.
+        <br/><br/>
+        In contrast to the existing MIP solvers which primarily utilize algorithms from the operations research (OR) and SAT/SMT solvers which focus on the methodologies from computer science (CS), we seek to develop a novel and efficient solver by combining the search techniques from OR and CS (MIX ORCS Search).
+        <br/><br/>
+        Currently, our solver has successfully solved large-scale problems in different scenarios from multiple departments, including departments of wireless, telecom, optical, cloud core, HiSilicon, and so on. Our solver supports the mixed integer problems with tens of millions of variables and constraints and can solve the NLP problems with several hundred thousand variables and constraints within milliseconds, surpassing other commercial solvers.
+        
+        <br/>
+
+    </div>
+    <br/><br/><br/>
+<hr>
+</main>
+
+
+<main class="background  container">
+  <center><h1 class="member-type"> Our Team </h1>  </center>
+  <br/>
+  Our solver development team is led by Professor Lu Pinyan and comprises  members from computer science, the operations research, Mathematics, and Automation. In the future, our team will continue to conduct in-depth research on technologies for the optimization solver and methodologies for industrial problems. We welcome everyone to join us.
+  <br/>
+    <center><div>
+
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters="role: di_solver"
+%}
+
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters="role: res_solver"
+%}
+    </div></center>
+<hr>
+</main>
+
+
+{% include site-footer.html %}
+

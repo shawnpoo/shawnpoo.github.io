@@ -2,7 +2,10 @@ di:
   icon: fas fa-microscope
   text: Director
 
-
+di_solver:
+  icon: fas fa-microscope
+  text: Chief scientist
+  
 pi:
   icon: fas fa-microscope
   text: Principal Researcher
@@ -10,6 +13,10 @@ pi:
 res:
   icon: fas fa-graduation-cap
   text: Fulltime Researcher
+  
+res_solver:
+  icon: fas fa-graduation-cap
+  text: Solver Technical Director
   
 se_res:
   icon: fas fa-graduation-cap
@@ -34,7 +41,11 @@ advisor:
 zn_di:
   icon: fas fa-microscope
   text: 实验室主任
-
+  
+zn_di_solver:
+  icon: fas fa-microscope
+  text: 首席科学家
+  
 zn_pi:
   icon: fas fa-microscope
   text: 首席研究员
@@ -47,6 +58,10 @@ zn_se_res:
 zn_res:
   icon: fas fa-graduation-cap
   text: 研究员
+  
+zn_res_solver:
+  icon: fas fa-graduation-cap
+  text: 求解器技术负责人
   
 zn_eng:
   icon: fas fa-code

@@ -2,8 +2,8 @@
 layout: member
 name: Pinyan Lu
 image: assets/images/people/lupinyan.png
-description: Director
-role: di
+description: Chief Scientist
+role: di_solver
 aliases:
 links:
   google-scholar: KFQERBwAAAAJ

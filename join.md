@@ -7,5 +7,5 @@ excerpt: "Join us and work together at Taylor lab!"
 ---
 Huawei Taylor Lab focuses on the research of theoretical computer science. We welcome researchers and engineers with passion to join us. We also have open positions for **visiting scholars**, **post-docs** and **interns**.
 
-If you are interested, please contact **hushaojuan@huawei.com**.
+If you are interested, please contact **zhangshanmei@huawei.com**.
 

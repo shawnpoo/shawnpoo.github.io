@@ -4,7 +4,7 @@ locale: zh
 feature_text: |
   <h1><font color='#ebebeb'> 加入我们  </font></h1>
 feature_image: ../../assets/images/background/bg_motion10.gif
-excerpt: "Join us and work together at TCS lab!"
+excerpt: "Join us and work together at TAYLOR lab!"
 permalink: "/zh/join/"
 ---
 
@@ -42,5 +42,5 @@ permalink: "/zh/join/"
 
 ### <center>联系方式
 
-<center>Email: hushaojuan@huawei.com</center>
+<center>Email: zhangshanmei@huawei.com</center>
 

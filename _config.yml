@@ -66,20 +66,6 @@ timezone: Europe/London # Timezone for blog posts and alike
 
 # 5. Collections
 collections:
-  posts:
-    title: News
-    output: true
-    description: "News"
-    feature_text: |
-       <h1><font color='#ebebeb'> News  </font></h1>
-    feature_image: ../../assets/images/background/bg_motion10.gif
-  postszh:
-    title: News
-    output: true
-    description: "News"
-    feature_text: |
-      <h1><font color='#ebebeb'> 新闻  </font></h1>
-    feature_image: ../../assets/images/background/bg_motion10.gif
   members:
     output: true
     description: "Member"
@@ -142,7 +128,7 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-US # Set the site language
-title: "Huawei Taylor Lab (TCS)" # Site name or title, also used in jekyll-seo-tag
+title: "Huawei Taylor Lab (Taylor)" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/tcs_logo.png" # Site logo, also used in jekyll-seo-tag
 description: "Huawei Taylor Lab (TCS) web page"
 url: "https://www.tcs-lab.com" # Site url, also used in jekyll-seo-tag
@@ -187,6 +173,9 @@ navigation_header:
 - title: Team
   title_zh: 团队 
   url: /team/
+- title: Solver
+  title_zh: 求解器
+  url: /solver/
 - title: Join Us
   title_zh: 招聘
   url: /join/
@@ -195,7 +184,7 @@ navigation_header:
   url: /zh/default/
 
 navigation_footer:
-- title: copyright 2022 @ Huawei Taylor Lab (TCS)
+- title: copyright 2024 @ Huawei Taylor Lab (TCS)
   url: https://www.tcs-lab.com
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
