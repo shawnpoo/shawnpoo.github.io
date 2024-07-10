@@ -35,7 +35,7 @@ permalink: "/zh/join/"
 
 ### <center>工作地点
 
-<center>上海、北京、杭州</center>
+<center>上海、北京、杭州、深圳</center>
 
 
 ---
