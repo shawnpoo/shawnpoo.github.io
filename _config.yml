@@ -173,9 +173,9 @@ navigation_header:
 - title: Solver
   title_zh: 求解器
   url: /solver/
-- title: Join Us
-  title_zh: 招聘
-  url: /join/
+# - title: Join Us
+#   title_zh: 招聘
+#   url: /join/
 - title: 中文
   title_zh: En
   url: /zh/default/
